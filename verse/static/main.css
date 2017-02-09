@@ -2,18 +2,42 @@ html {
   font-family: sans-serif;
 }
 
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h3 {
+  border-bottom: 1px solid #555;
+  font-weight: 500;
+  margin: 0;
+  background: #444;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
 .example textarea {
   font-size: 10pt;
   font-family: monospace;
   display: block;
   outline: none;
+  resize: none;
   border: 1px solid #333;
   background: #444;
-  margin: 10px 0;
   color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 0 0 5px 5px;
 }
 
 .example .input button {
+  border: none;
+  outline: none;
   background-color: #493;
   color: white;
   padding: 10px;
