@@ -1,0 +1,7 @@
+var Context = {
+
+  stores: {
+    compiled: {}
+  }
+
+}
